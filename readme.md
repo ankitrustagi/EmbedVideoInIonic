@@ -34,7 +34,7 @@ div {
 	}
 ```
 
-It will result in a <div> with height equal to 56.25% of the width of its container (a 16:9 aspect ratio).
+It will result in a ```<div>``` with height equal to 56.25% of the width of its container (a 16:9 aspect ratio).
 Padding-bottom values for other aspect ratios and 100% width :
 
 ```
@@ -72,12 +72,14 @@ So disable the branding and handle the title by adding transparent div or contai
 Css look like:
 ```
 .videoTitleDisable{
-width: 100%;
-height: 50px;
-background:  transparent;
-z-index: 1000;
-position: absolute;	top: 0px
+	width: 100%;
+	height: 50px;
+	background:  transparent;
+	z-index: 1000;
+	position: absolute;	top: 0px
 }
 ```
+
+Please do provide your inputs and suggestions.
 
 
