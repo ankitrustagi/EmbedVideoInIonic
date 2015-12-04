@@ -12,6 +12,21 @@ and add following line to ion-content in index.html
 	<iframe src="https://www.youtube.com/embed/wyVM1evRxNw frameborder="0></iframe>
 </div>
 ```
+CSS looks like:
+```
+.videoWrapper{
+	position: relative;
+	padding-bottom: 56.25%; /* 16:9 */
+	height: 0;
+	iframe {
+		position: absolute;
+		top: 0;
+		left: 0;
+		width: 100%;
+		height: 100%;
+	}
+}
+```
 ###Whitelist Youtube Domain
 
 Embeding a youtube video is quite easy but when whitelist plugin is used, it will block  the youtube api’s . so add following lines to config.xml
