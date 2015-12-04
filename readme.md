@@ -14,7 +14,7 @@ and add following line to ion-content in index.html
 ```
 CSS looks like:
 ```
-.videoWrapper{
+.videoContainer{
 	position: relative;
 	padding-bottom: 56.25%; /* 16:9 */
 	height: 0;
