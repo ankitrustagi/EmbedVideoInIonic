@@ -1,13 +1,16 @@
 Add following line to ion-content in index.html
-
+'''
 <div class=”videoContainer”>
 <iframe src=https://www.youtube.com/embed/wyVM1evRxNw frameborder="0></iframe>
 </div>
+'''
 
 Embeding a youtube video is quite easy but when whitelist plugin is used, it will block  the youtube api’s . so add following lines to config.xml
 
+'''
 <access origin="*.youtube.com"/>
 <access origin="*.ytimg.com"/>
+'''
 
 These lines whitelist the youtube api’s and will allow the youtube video to be played in ionic app.
 
